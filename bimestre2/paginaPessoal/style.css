@@ -31,13 +31,13 @@ nav {
     top: 50px;
 }
 nav a:hover {
-    color: aquamarine;
+    color: #98A1AA;
 }
 header h1 {
     text-align: left;
     position: absolute;
     top: 50px;
-    padding-left: 120px;
+    padding-left: 170px;
 }
 
 h1{
@@ -66,10 +66,53 @@ h2{
     width: 100px;
     height: 100px;
     overflow: hidden;
-    position: relative;
+    position: absolute;
+    margin-left: 40px;
+    
 }
 
 .foto-1 img{
     bottom: 0;
     width: 100%;
+    
+}
+
+#sobre {
+    position: relative;
+    padding: 50px;
+    background-color: #F7F7F7;
+}
+
+.sobre-texto {
+    float: left;
+    width: 50%;
+    padding-right: 20px;
+}
+
+.sobre-texto h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.sobre-texto p {
+    font-size: 18px;
+    color: #000000;
+}
+
+.foto-2-container {
+    float: right;
+    width: 45%; 
+}
+
+.foto-2 {
+    width: 100%;
+    height: auto;
+}
+
+
+#sobre::after {
+    content: "";
+    display: table;
+    clear: both;
 }

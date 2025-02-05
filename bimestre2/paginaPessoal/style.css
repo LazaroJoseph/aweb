@@ -165,3 +165,16 @@ h2{
     border-radius: 10px;
     object-fit: cover;
 }
+
+.footer a{
+    color: #F7F7F7;
+}
+
+.footer a:hover{
+    color: #98A1AA;
+}
+
+.footer{
+    background-color: #2C4156;
+    color: #F7F7F7;
+}

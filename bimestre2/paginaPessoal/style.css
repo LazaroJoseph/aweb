@@ -177,4 +177,37 @@ h2{
 .footer{
     background-color: #2C4156;
     color: #F7F7F7;
+    text-align: center;
+    padding: 15px;
+}
+
+.Copyright{
+    padding-top: 25px;
+    font-size: 12px;
+}
+
+#educacao{
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+#educacao table{
+    margin-left: 38%;
+}
+
+#causos {
+    text-align: center;
+    margin: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#habilidades{
+    text-align: center;
+    margin: 20px;
+}
+
+ul{
+    list-style: none;
 }

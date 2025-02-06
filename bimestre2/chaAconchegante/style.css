@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    opacity: 0.9;
+}
+.logo {
+    height: 50px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul li a {
+    color: seashell;
+    text-decoration: underline;
+}
+#mission {
+    background-image: url('./images/img-mission-background.webp');
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+.overlay{
+    background-color: black;
+    padding: 20px;
+    width: 1200px;
+}
+.tea-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.tea-item img {
+    width: 300px;
+    height: 200px;
+}
+.locations-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+.location {
+    width: 300px;
+    background-color: black;
+    padding: 20px;
+}
+#locations {
+    background-image: url('./images/img-locations-background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+}
+footer {
+    padding: 20px;
+}
